@@ -22,10 +22,11 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className={isWorking} alt="logo" />
-          <h1 className="App-title">Simpsons Quotes</h1>
+          <h1 className="App-title">Is Homer working ?</h1>
         </header>
-        <div className="Homer">
-          <button
+        <div>
+          <button 
+            className="Homer"
             onClick={this.handleClick}
           >
             {isHomerWorking}

@@ -27,6 +27,11 @@
   font-size: large;
 }
 
+.Homer{
+  font-size: 1.5em;
+  margin: 2em;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

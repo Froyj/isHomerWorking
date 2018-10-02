@@ -9,7 +9,7 @@ class Homer extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
-    this.setState(state => ({
+    this.setState((state) => ({
       working: !this.state.working
     }));
   }  
